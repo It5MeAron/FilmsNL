@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<title> WebDesign Aron </title>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <Link rel="stylesheet" href="Style.css">
+</head>
+
+<body class="d-flex flex-column h-100">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="forms.html">Submit Movie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/search.html">Search</a>
+                    </li>
+
+            </div>
+        </nav>
+    </header>
+    <div class="basis container">
+        <h1 class="heading-1">Submit Movie</h1> <br>
+        <div class="row">
+            <div class="col">
+                <div class="form">
+                    <input type="text" name="Name Movie" autocomplete="off" required />
+                    <label for="Name Movie" class="name-label">
+                        <span class="content-name">Title</span>
+                    </label>
+                </div>
+                <div class="form">
+                    <input type="text" name="Soort Movie" autocomplete="off" required />
+                    <label for="Soort Movie" class="name-label">
+                        <span class="content-name">Genre</span>
+                    </label>
+                </div>
+                <div class="form">
+                    <input type="text" name="Name Ac1" autocomplete="off" required />
+                    <label for="Name Ac1" class="name-label">
+                        <span class="content-name">Name Actor</span>
+                    </label>
+                </div>
+                <input type="submit" value="Add Movie" class="SubmitBtn">
+            </div>
+            <!-- 2nd form -->
+            <div class="col background2">
+                <div class="form">
+                    <input type="text" name="Name Director" autocomplete="off" required />
+                    <label for="Name Director" class="name-label">
+                        <span class="content-name">Name Director</span>
+                    </label>
+                </div>
+                <div class="form">
+                    <input type="number" name="Year" autocomplete="off" required />
+                    <label for="Year" class="name-label">
+                        <span class="content-name">Release year</span>
+                    </label>
+                </div>
+                <div class="form">
+                    <input type="text" name="Kn1" autocomplete="off" required />
+                    <label for="Kn1" class="name-label">
+                        <span class="content-name">Name Protagonist</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer class="page-footer font-small blue pt-4 sidechange">
+		<div class="container-fluid text-center text-md-left">
+			<div class="row">
+				<div class="col-md-6 mt-md-0 mt-3">
+					<h5 class="text-uppercase">Designed by:</h5>
+					<p>Aron</p>
+
+				</div>
+				<hr class="clearfix w-100 d-md-none pb-3">
+				<div class="col-md-3 mb-md-0 mb-3">
+
+					<ul class="list-unstyled">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="forms.html">Submit movie</a>
+						</li>
+						<li>
+							<a href="about.html">About the creator</a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright text-center py-3">© 2021 Copyright:
+			<a href="https://twitch.tv/It5MeAron">Aron</a>
+		</div>
+    </footer>
+    <div>
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+            integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+            integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+            crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>

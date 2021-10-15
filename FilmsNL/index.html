@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<title> WebDesign Aron </title>
+
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<Link rel="stylesheet" href="Style.css">
+	<script type="text/javascript" src="/Script.js"></script>
+</head>
+
+<body class="d-flex flex-column h-100">
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="index.html">Home</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+				aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="forms.html">Forms</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="search.html">Search</a>
+					</li>
+			</div>
+		</nav>
+	</header>
+	<div class="basis container">
+		<h1 class="display-6">FilmsNL</h1> <br>
+		<div id="Fotos" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#Fotos" data-slide-to="0" class="active"></li>
+				<li data-target="#Fotos" data-slide-to="1"></li>
+				<li data-target="#Fotos" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<a href="films/junglecruise.html">
+						<img class="d-block img-fluid" src="fotos/CarouselJC.jpg" alt="JungleCruise">
+					</a>
+					<div class="carousel-caption d-none d-md-block">
+						<h3>Jungle Cruise</h3>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<a href="films/shangchi.html">
+						<img class="d-block img-fluid" src="fotos/CarouselSC.jpg" alt="ShangChi">
+					</a>
+					<div class="carousel-caption d-none d-md-block">
+						<h3>Shang-Chi</h3>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<a href="films/suicidesquad.html">
+						<img class="d-block img-fluid" src="fotos/CarouselSS.jpg" alt="SuicideSquad">
+					</a>
+					<div class="carousel-caption d-none d-md-block">
+						<h3>The Suicide Squad</h3>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#Fotos" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#Fotos" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+	</div>
+	<!--Reviews and movie list-->
+	<div class="row">
+		<!--Jumbotron in row for easier centering  -->
+		<div class="col-2"></div>
+		<div class="col-8">
+			<div class="box-padding-md grey-bg">
+				<div class="jumbotron jumbotron-fluid">
+					<div class="row">
+						<div class="col-1"></div>
+						<div class="col-4 text-left">
+							<a href="films/shangchi.html"><img src="fotos/sc2.jpg"></a>
+						</div>
+						<div class="col-md-6 align-self-center">
+
+							<h1 class="display-1"><a href="/films/shangchi.html">Shang-Chi</h1></a>
+						</div>
+						<div class="col-1">
+							<!--  -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="box-padding-md grey-bg">
+				<div class="jumbotron jumbotron-fluid">
+					<div class="row">
+						<div class="col-1"></div>
+
+						<div class="col-6 align-self-center">
+
+							<h1 class="display-1"><a href="/films/junglecruise.html">Jungle Cruise</h1></a>
+						</div>
+						<div class="col-4 text-right">
+							<a href="films/junglecruise.html"><img src="fotos/jc2.jpg"></a>
+						</div>
+						<div class="col-1"></div>
+					</div>
+				</div>
+			</div>
+			<div class="box-padding-md grey-bg">
+				<div class="jumbotron jumbotron-fluid">
+					<div class="row">
+						<div class="col-1"></div>
+						<div class="col-4 text-left">
+							<a href="films/suicidesquad.html"><img src="fotos/ss.jpg"></a>
+						</div>
+						<div class="col-md-6 align-self-center">
+
+							<h1 class="display-1"><a href="/films/suicidesquad.html">Suicide Squad</h1></a>
+						</div>
+						<div class="col-1">
+							<!--  -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Footer-->
+	<footer class="page-footer font-small blue pt-4 sidechange">
+		<div class="container-fluid text-center text-md-left">
+			<div class="row">
+				<div class="col-md-6 mt-md-0 mt-3">
+					<h5 class="text-uppercase">Designed by:</h5>
+					<p>Aron</p>
+
+				</div>
+				<hr class="clearfix w-100 d-md-none pb-3">
+				<div class="col-md-3 mb-md-0 mb-3">
+
+					<ul class="list-unstyled">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="forms.html">Submit movie</a>
+						</li>
+						<li>
+							<a href="about.html">About the creator</a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright text-center py-3">© 2021 Copyright:
+			<a href="https://twitch.tv/It5MeAron">Aron</a>
+		</div>
+	</footer>
+	</footer>
+	<div>
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+			integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+			crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+			integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+			crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+			integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+			crossorigin="anonymous"></script>
+	</div>
+</body>
+
+</html>
